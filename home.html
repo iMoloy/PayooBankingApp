@@ -1,11 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home</title>
-</head>
-<body>
-      <H1>Home</H1>
-</body>
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payoo | Home</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <!-- Tailwind + Daisy -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Outfit", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-base-200 mx-auto max-w-md">
+    <div class="header border-b-2 border-gray-200 py-2">
+      <div class="section w-11/12 flex justify-between items-center mx-auto">
+        <div class="left flex gap-1">
+          <div class="logo w-16">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <div class="banalce-info">
+            <h2 class="balance font-bold text-2xl">
+              $<span id="balance">45000</span>
+            </h2>
+            <p class="text-neutral/50">Available Balance</p>
+          </div>
+        </div>
+        <div class="right">
+          <a class="btn btn-soft" href="./index.html"
+            ><i class="fa-solid fa-right-from-bracket"></i> Logout</a
+          >
+        </div>
+      </div>
+    </div>
+    <section class="w-11/12 mx-auto py-5 space-y-6">
+      <h2 class="text-3xl font-bold">Welcome to Pay<span class="text-primary">oo</span></h2>
+      <p class="text-neutral/50">Enjoy easy and convenient financial services with us. Cash out charge is low and </p>
+      <div class=" buttons grid grid-cols-3 gap-3">
+            <div class="btn btn-primary btn-soft py-4 gap-2 flex-col h-full">
+                  <img src="./images/opt-1.png" alt="" class="w-7">
+                  <p class="text-neutral/50">Add Money</p>
+            </div><div class="btn btn-primary btn-soft py-4 gap-2 flex-col h-full">
+                  <img src="./images/opt-2.png" alt="" class="w-7>
+                  <p class="text-neutral/50">Cash Out</p>
+            </div><div class="btn btn-primary btn-soft py-4 gap-2 flex-col h-full">
+                  <img src="./images/opt-3.png" alt="" class="w-7>
+                  <p class="text-neutral/50">Transfer Money</p>
+            </div><div class="btn btn-primary btn-soft py-4 gap-2 flex-col h-full">
+                  <img src="./images/opt-4.png" alt="" class="w-7>
+                  <p class="text-neutral/50">Get bonus</p>
+            </div><div class="btn btn-primary btn-soft py-4 gap-2 flex-col h-full">
+                  <img src="./images/opt-5.png" alt="" class="w-7>
+                  <p class="text-neutral/50">Pay Bill</p>
+            </div><div class="btn btn-primary btn-soft py-4 gap-2 flex-col h-full">
+                  <img src="./images/opt-6.png" alt="" class="w-7>
+                  <p class="text-neutral/50">Transaction</p>
+            </div>
+      </div>
+    </section>
+    <section class="">
+      <div class="">
+        <h2>Cash Out</h2>
+      </div>
+    </section>
+  </body>
 </html>
