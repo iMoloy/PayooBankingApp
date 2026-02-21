@@ -10,7 +10,6 @@ document.getElementById("cashout-btn").addEventListener("click", function () {
   const inputAmount = document.getElementById("input-amount");
   const amount = inputAmount.value;
   console.log(amount);
-  }
   //
   const balanceAmount = document.getElementById("balance");
   const balance = balanceAmount.innerText;
