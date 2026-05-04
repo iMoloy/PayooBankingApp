@@ -1,9 +1,11 @@
-@import "tailwindcss";
+/* app/globals.css */
+@import "tailwindcss"; /*[cite: 4] */
 
 :root {
   font-family: "Outfit", sans-serif;
 }
 
-body {
-  background-color: #f3f4f6;
+/* Hide scrollbar but allow scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
